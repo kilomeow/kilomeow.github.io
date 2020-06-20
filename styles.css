@@ -8,8 +8,9 @@ body {
 
 #page {
     background-color:  white;
-    max-width: 56rem;
+    max-width: 50rem;
     margin: 0 auto;
+    padding: 0 1rem;
     line-height: 1.2em;
     /*overflow: hidden;*/
 }
@@ -43,7 +44,7 @@ body {
   content: "·"; 
   font-weight: bold;
   display: inline-block;
-  width: 1rem; 
+  width: 1.5rem; 
   margin-left: -1rem;
 }
 
