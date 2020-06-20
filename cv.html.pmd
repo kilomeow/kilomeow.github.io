@@ -1,0 +1,76 @@
+#lang pollen
+
+# CV :: Balaram Usov
+
+Moscow, Russia
+
+[kilomeow@github](https://github.com/kilomeow) &nbsp; &nbsp; [kilomeow@gitlab](https://gitlab.com/kilomeow)
+
+[dest@disr.it](mailto:dest@disr.it) &nbsp; &nbsp; [kilomeow@toot.cat](https://toot.cat/web/accounts/183833)
+
+---
+
+## Experiences
+
+- Taste the waste low-tech site development, **May 2020 - now**
+- [Corona Info Bot](https://t.me/corona_tgbot) [development](https://gitlab.com/coronahack/coronainfobot/) in collaboration with Novaya Gazeta, **March 2020 - April 2020**
+- Projector 2020 hackathon participating with *[foodmatching: data analysis and logistics of foodsharing](https://projector2020.te-st.ru/project/foodmatching/)*, **Febrary 2020**
+- DOXA independent student media, **September 2018 - Febrary 2020**
+- Devs against the Machine hackathon winning with *[device for alarming in situations like police arrest](https://github.com/kilomeow/hansel)*, **December 2019** ([Video presentation](https://youtu.be/uELv9XztMr0))
+- [Workshop for teens on Telegram bots](https://github.com/kilomeow/urbanwalk-bot-lego), **December 2019**
+- DH Hack hackathon participating with *[data analysis of student small media](https://github.com/kilomeow/doxa-research)*, **November 2019**
+
+## Teaching
+
+- HSE, Prozhito Workshop II tutor **September 2019 - December 2019**
+
+We was mainly focused on developing Telegram bot which can be used for reading and marking up diaries.
+
+- HSE, Prozhito Workshop I tutor **Febrary 2019 - May 2019**
+
+We developed a [library](https://github.com/kilomeow/prozhito-tools) for working with [prozhito.org](http://prozhito.org/) data and then analyzed it.
+
+- Self-employed tutor **Febrary 2018 - March 2019**
+- IUM, Analysys I teaching assistant **Fall 2017**
+- 57 school teaching assistant **Spring 2017**
+
+## Talks
+
+- [UI Development, architectures and ontology of user experience](https://youtu.be/I1-R8dEZ938), Counterculture Philosophy, **June 2020**
+- Mapping class groups, Geometric structures on manifolds seminar, **September 2018**
+- Hyperbolicity and homology, Geometric structures on manifolds seminar, **March 2018**
+- Gromov hyperbolic groups, Dick of Grothendieck student seminar, **January 2018**
+- [Birman-Craggs and Johnson homomorphisms](http://www.mathnet.ru/php/seminars.phtml?presentid=18977), Seminar on geometric topology, **December 2017**
+- Homotopical syzygies, Geometric structures on manifolds seminar, **October 2017**
+
+## Education
+
+- Mathematics, Higher School of Economics **January 2018 - June 2018**, **September 2019 - December 2019** *(Fourth year undergraduate student)*
+- Mathematics, Moscow State University **Semptember 2015 - December 2017**
+
+## Employment
+
+- RovBuilder system developer  **October 2019 - December 2019**
+
+My primary responsibility was to develop missing parts of software for sending sonar data from underwater robot. There was a lot of work with the concurrency.
+
+- JetBrains Internship **Jule 2019 - August 2019**
+
+My problem was to develop a model that using a difference of code source files produces some description of what changes were made.
+
+- [affinum.tech](http://affinum.tech) GradoGraf developer **April 2019 - June 2019**
+
+I was developing software for collecting data from some sensors and visualizing them on a map. It was successfully applied in the city of Pervouralsk.
+
+[https://github.com/kilomeow/ecostation](https://github.com/kilomeow/ecostation)
+
+- Museum of Soviet Arcade Machines **March 2019 - April 2019**
+
+I worked on educational projects for students to attend technical classes at the museum.
+
+## Selected schools, workshops and other
+
+- Participant of Illuminations 2.0 philosophical research school on Formalism and Representations track in Tyumen **August 2019**
+- Participant of an independent expedition to Kalmykia **August 2018**
+- Participant of summer school LUTSINOfest **July 2018**
+- Participant of summer school Modern Mathematics in Dubna **July 2017**

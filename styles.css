@@ -1,0 +1,82 @@
+body {
+    font-family: 'Fira Sans', 'Roboto', 'Open Sans', 'Noto Sans JP', sans-serif;
+    /* todo font face */
+    font-weight: 200;
+    color: #38313e;
+    font-size: 1.15em; /* ~18px for my resolution, maybe use media queries here */
+}
+
+#page {
+    background-color:  white;
+    max-width: 56rem;
+    margin: 0 auto;
+    line-height: 1.2em;
+    /*overflow: hidden;*/
+}
+
+::selection {
+    color: white;
+    background-color: teal;
+}
+
+#page a {
+    color: teal;   
+}
+
+#page a::selection {
+    color: lightsalmon;
+}
+
+#page strong {
+    color: indianred;
+}
+
+#page li {
+    margin: 0.75em 0;
+}
+
+#page ul {
+  list-style: none; /* Remove default bullets */
+}
+
+#page ul li::before {
+  content: "·"; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1rem; 
+  margin-left: -1rem;
+}
+
+#about {
+    margin: 0 auto;
+    max-width: 48rem;
+}
+
+img {
+    float: right;
+    max-width: 10rem;
+    margin: 1rem;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #38313e;
+}
+
+h1 {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 250%;
+    margin: 1em 0;
+    color: #37382E;
+}
+
+h2 {
+    font-size: 150%;
+    color: #37382E;
+}
+
+.note:nth-child(even) {
+    background-color: #fbfcfa;
+}
