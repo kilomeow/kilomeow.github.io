@@ -1,0 +1,190 @@
+body {
+    font-family: "Hack", monospace;
+    /* todo font face */
+    font-weight: 200;
+    color: black;
+    font-size: 15px; /* ~18px for my resolution, maybe use media queries here */
+}
+
+#page,article {
+    background-color:  white;
+    max-width: 50rem;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 1.2em;
+    /*overflow: hidden;*/
+    /* border-left: 2px solid #38313e;
+    border-right: 2px solid #38313e; */
+}
+
+::selection {
+    color: white;
+    background-color: teal;
+}
+
+a {
+    color: teal;   
+}
+
+#page a::selection {
+    color: lightsalmon;
+}
+
+#page strong {
+    color: indianred;
+}
+
+#page li {
+    margin: 0.75em 0;
+}
+
+#page ul {
+  list-style: none; /* Remove default bullets */
+}
+
+#page ul li::before {
+  content: "·"; 
+  font-weight: bold;
+  display: inline-block;
+  width: 1.5rem; 
+  margin-left: -2em;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: row;
+    flex-gap: 0.5em;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 0.5em;
+}
+
+.info {
+    display: inline-block;
+    font-family: "Hack", monospace;
+    color: black;
+    border: 2px solid #38313e;
+    padding: 0.5em;
+    font-size: 14px;
+    font-weight: 200;
+}
+
+.info li::marker {
+    content: "";
+}
+
+.info ul {
+    margin: 0;
+    padding: 0;
+}
+
+.info ul>li {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.info ul>li::before {
+    content: "";
+    display: block;
+    float: left;
+    border: 2px solid #38313e;
+    color: #38313e;
+    margin-right: 0.25em;
+}
+
+.info h1 {
+    font-size: 18px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+.info h4 {
+    font-size: 16px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+section:nth-child(even) {
+    text-align: right;
+/*    border-top: 2px solid #38313e;
+    border-bottom: 2px solid #38313e; */
+}
+
+section:nth-child(even)>* {
+    text-align: left;
+/*    border-top: 2px solid #38313e;
+    border-bottom: 2px solid #38313e; */
+}
+
+#about {
+    margin: 0 auto;
+    max-width: 48rem;
+}
+
+article iframe {
+    border: none;
+    margin: 0.5em;
+}
+
+article img {
+    max-width: 22rem;
+    margin: 1em;
+}
+
+hr {
+    height: 2px;
+    border: none;
+    background-color: #38313e;
+}
+
+h1 {
+    text-align: center;
+    white-space: nowrap;
+    font-size: 250%;
+    margin: 1em 0;
+    color: #37382E;
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+section>h2 {
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    padding-left: 0.25em;
+    color: white;
+    background-color: #37382E;
+}
+
+h3 {
+    font-weight: 300;
+    font-size: 16px;
+    color: #37382E;
+}
+
+h3::before {
+    content: ":: "
+}
+
+h2::before {
+    content: ": "
+}
+
+
+.note:nth-child(even) {
+    background-color: #fbfcfa;
+}
+
+article>section h3 {
+    margin-left: 1.5em;
+}
+
+article>section p {
+    max-width: 25rem;
+    padding: 0.5em;
+    background-color: rgba(0, 128, 128, 0.1);
+    margin-left: 1.5em;
+}
