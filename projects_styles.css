@@ -183,6 +183,7 @@ article>section h3 {
 }
 
 article>section p {
+    display: inline-block;
     max-width: 25rem;
     padding: 0.5em;
     background-color: rgba(0, 128, 128, 0.1);
