@@ -13,7 +13,6 @@ body {
     padding: 0 1rem;
     line-height: 1.2em;
     /*overflow: hidden;*/
-    border-right: 2px solid #38313e;
 }
 
 ::selection {
